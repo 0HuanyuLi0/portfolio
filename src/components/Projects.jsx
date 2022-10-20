@@ -1,6 +1,7 @@
 import React from 'react';
 import { data } from "../data/data.js";
-
+import { HiArrowNarrowRight } from 'react-icons/hi';
+import { Link } from 'react-scroll';
 
 const Projects = () => {
 
@@ -9,9 +10,9 @@ const Projects = () => {
     //setProjects(data);
 
     return (
-        <div name='projects' className='w-full h-screen dark:bg-slate-800 dark:text-slate-300'>
+        <div name='projects' className='pt-[80px] w-full grid place-items-center min-h-screen  dark:bg-slate-800 dark:text-slate-300'>
             <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
-                <div className='pb-8'>
+                <div className='pb-8 text-center'>
                     <p className='text-4xl font-bold inline border-b-4  border-pink-600'>
                         Projects
                     </p>
@@ -25,7 +26,7 @@ const Projects = () => {
                     {projects.map((item, index) => (
                         <div
                             key={index}
-                            style={{ backgroundImage: `url(${item.image})`, backgroundSize: `cover` }}
+                            style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/${item.image})`, backgroundSize: `cover` }}
 
                             className="shadow-lg shadow-slate-800 group container rounded-md 
               flex justify-center text-center items-center mx-auto content-div"
@@ -44,7 +45,7 @@ const Projects = () => {
                                     <a href={item.github} target="_blank">
                                         <button
                                             className="text-center rounded-lg px-4 py-3 m-2
-                        font-bold text-lg text-slate-300 hover:bg-slate-800"
+                        font-bold text-lg text-slate-300 hover:bg-pink-600"
                                         >
                                             Code
                                         </button>
@@ -53,7 +54,7 @@ const Projects = () => {
                                     <a href={item.live} target="_blank">
                                         <button
                                             className="text-center rounded-lg px-4 py-3 m-2
-                        font-bold text-lg text-slate-300 hover:bg-slate-800"
+                        font-bold text-lg text-slate-300 hover:bg-pink-600"
                                         >
                                             Demo
                                         </button>
@@ -66,6 +67,13 @@ const Projects = () => {
 
                 </div>
             </div>
+
+            <Link to='contact' smooth={true} duration={500} className='mx-auto group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600 w-fit cursor-pointer mt-6'>
+                Contact Me
+                <span className='group-hover:rotate-90 duration-300'>
+                    <HiArrowNarrowRight className='ml-3 ' />
+                </span>
+            </Link>
         </div>
     );
 };
