@@ -26,7 +26,7 @@ const Home = () => {
                     I am a software engineer with an extensive background in electrical engineering. I believe technology is the future and it will make people work easier and play harder. As someone who is passionate about coding, I would like to be a contributor to the new world.
                 </p>
                 <div>
-                    <Link to='about' smooth={true} duration={500} className='group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600 w-fit cursor-pointer'>
+                    <Link to='about' smooth={true} duration={500} className='group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600 w-fit cursor-pointer dark:hover:border-pink-600 border-slate-800 dark:border-slate-300'>
                         View About
                         <span className='group-hover:rotate-90 duration-300'>
                             <HiArrowNarrowRight className='ml-3 ' />
