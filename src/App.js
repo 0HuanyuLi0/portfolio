@@ -14,7 +14,7 @@ function App() {
   return (
     <div className={darkMode ? "dark" : ""}>
 
-      <NavBar mode={handleMode} />
+      <NavBar mode={handleMode} currentMode={darkMode}/>
       <Home />
       <About />
       <Skills/>

@@ -8,7 +8,7 @@ import {
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { Link } from 'react-scroll';
-import { CgDarkMode } from 'react-icons/cg'
+import { MdLightMode, MdDarkMode } from 'react-icons/md'
 
 
 const Navbar = (props) => {
@@ -19,9 +19,23 @@ const Navbar = (props) => {
     return (
 
         <div className={'fixed w-full h-[80px] flex justify-between items-center px-4 dark:bg-slate-800 dark:text-slate-300'}>
-            <div className={nav? 'invisible' :'font-bold text-xl flex items-center gap-3'}>
-                HUANYU LI
-                <CgDarkMode onClick={changeMode} className='cursor-pointer' />
+            <div className={nav ? 'invisible' : 'font-bold text-xl flex items-center gap-3'}>
+                <Link to='home' smooth={true} duration={500} className='cursor-pointer'>
+                    HUANYU LI
+                </Link>
+                {
+                    props.currentMode ? 
+                    <>
+                    <MdDarkMode onClick={changeMode} className='cursor-pointer' />
+                    <span className='text-sm font-normal'>Dark Mode</span>
+                    </>
+                    :
+                    <>
+                    <MdLightMode onClick={changeMode} className='cursor-pointer' />
+                    <span  className='text-sm font-normal'>Light Mode</span>
+                    </>
+                }
+                
             </div>
 
             {/* menu */}
@@ -94,7 +108,7 @@ const Navbar = (props) => {
                     <Link onClick={handleClick} to='contact' smooth={true} duration={500}>
                         Contact
                     </Link>
-                    
+
                 </li>
             </ul>
 

@@ -12,14 +12,14 @@ import { BsFillPersonLinesFill } from 'react-icons/bs';
 
 const Home = () => {
     return (
-        <div name='home' className='grid place-items-center min-h-screen w-full pt-[80px] dark:bg-slate-800 dark:text-slate-300'>
+        <div name='home' className='grid place-items-center min-h-screen w-full  dark:bg-slate-800 dark:text-slate-300'>
             {/* Container */}
             <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
                 <p className='text-pink-600'>Hi, my name is</p>
                 <h1 className='text-4xl sm:text-7xl font-bold '>
                     HUANYU LI
                 </h1>
-                <h2 className='text-4xl sm:text-7xl font-bold '>
+                <h2 className='text-4xl sm:text-7xl font-bold'>
                     I'm a Software Engineer.
                 </h2>
                 <p className='py-4 max-w-[700px]'>

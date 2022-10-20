@@ -3,7 +3,7 @@ import { HiArrowNarrowRight } from 'react-icons/hi';
 import { Link } from 'react-scroll';
 const About = () => {
     return (
-        <div name='about' className='pt-[80px] w-full grid place-items-center min-h-screen dark:bg-slate-800 dark:text-slate-300'>
+        <div name='about' className='w-full grid place-items-center min-h-screen dark:bg-slate-800 dark:text-slate-300'>
             <div>
                 <div className='text-center mb-6'>
                     <p className='text-4xl font-bold inline border-b-4 border-pink-600'>
@@ -15,10 +15,10 @@ const About = () => {
                 <div className='flex flex-col justify-center items-center w-full h-full'>
 
                     <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
-                        <div className='sm:text-right text-4xl font-bold'>
+                        <div className='text-center md:text-left text-4xl font-bold'>
                             <p>Hi. I'm Huanyu Li, nice to meet you. Please take a look around.</p>
                         </div>
-                        <div>
+                        <div className='text-center md:text-left'>
                             <p>
                                 I am passionate about coding that improves the quality of life. I'm a fast learner, like challenges, and am good at solving problems, and as such, I believe that software engineering as a career is a natural fit for me. If you are keen to work together, please reach out!
                             </p>
