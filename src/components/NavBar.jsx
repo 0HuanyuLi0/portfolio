@@ -24,18 +24,18 @@ const Navbar = (props) => {
                     HUANYU LI
                 </Link>
                 {
-                    props.currentMode ? 
-                    <>
-                    <MdDarkMode onClick={changeMode} className='cursor-pointer' />
-                    <span className='text-sm font-normal'>Dark Mode</span>
-                    </>
-                    :
-                    <>
-                    <MdLightMode onClick={changeMode} className='cursor-pointer' />
-                    <span  className='text-sm font-normal'>Light Mode</span>
-                    </>
+                    props.currentMode ?
+                        <div className='flex gap-3 cursor-pointer' onClick={changeMode}>
+                            <MdDarkMode />
+                            <span className='text-sm font-normal'>Dark Mode</span>
+                        </div>
+                        :
+                        <div className='flex gap-3 cursor-pointer' onClick={changeMode}>
+                            <MdLightMode />
+                            <span className='text-sm font-normal'>Light Mode</span>
+                        </div>
                 }
-                
+
             </div>
 
             {/* menu */}
