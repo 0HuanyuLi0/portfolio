@@ -27,7 +27,7 @@ const About = () => {
 
                 </div>
                 <div>
-                    <img src={process.env.PUBLIC_URL + '/hello.png'} alt="hello" className='block mx-auto' />
+                    <img src={process.env.PUBLIC_URL + '/images/hello.png'} alt="hello" className='block mx-auto' />
                 </div>
 
                 <Link to='skills' smooth={true} duration={500} className='mx-auto mt-6 group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600 w-fit cursor-pointer dark:hover:border-pink-600 border-slate-800 dark:border-slate-300'>

@@ -13,85 +13,85 @@ const Skills = () => {
 
                 <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center'>
                     <div className='shadow-md shadow-slate-900 hover:scale-110 duration-500 pt-6 pt-6'>
-                        <img className='w-20 mx-auto' src={process.env.PUBLIC_URL + '/html.png'} alt="HTML icon" />
+                        <img className='w-20 mx-auto' src={process.env.PUBLIC_URL + '/images/html.png'} alt="HTML icon" />
                         <p className='my-4'>HTML</p>
                     </div>
                     <div className='shadow-md shadow-slate-900 hover:scale-110 duration-500 pt-6'>
-                        <img className='w-20 mx-auto' src={process.env.PUBLIC_URL + '/css.png'} alt="HTML icon" />
+                        <img className='w-20 mx-auto' src={process.env.PUBLIC_URL + '/images/css.png'} alt="HTML icon" />
                         <p className='my-4'>CSS</p>
                     </div>
                     <div className='shadow-md shadow-slate-900 hover:scale-110 duration-500 pt-6'>
-                        <img className='w-20 mx-auto' src={process.env.PUBLIC_URL + '/javascript.png'} alt="HTML icon" />
+                        <img className='w-20 mx-auto' src={process.env.PUBLIC_URL + '/images/javascript.png'} alt="HTML icon" />
                         <p className='my-4'>JAVASCRIPT</p>
                     </div>
                     <div className='shadow-md shadow-slate-900 hover:scale-110 duration-500 pt-6'>
-                        <img className='w-20 mx-auto' src={process.env.PUBLIC_URL + '/react.png'} alt="HTML icon" />
+                        <img className='w-20 mx-auto' src={process.env.PUBLIC_URL + '/images/react.png'} alt="HTML icon" />
                         <p className='my-4'>REACT</p>
                     </div>
                     <div className='shadow-md shadow-slate-900 hover:scale-110 duration-500 pt-6'>
-                        <img className='w-20 mx-auto' src={process.env.PUBLIC_URL + '/vue.png'} alt="HTML icon" />
+                        <img className='w-20 mx-auto' src={process.env.PUBLIC_URL + '/images/vue.png'} alt="HTML icon" />
                         <p className='my-4'>VUE JS</p>
                     </div>
                     <div className='shadow-md shadow-slate-900 hover:scale-110 duration-500 pt-6'>
-                        <img className='w-20 mx-auto' src={process.env.PUBLIC_URL + '/three.png'} alt="HTML icon" />
+                        <img className='w-20 mx-auto' src={process.env.PUBLIC_URL + '/images/three.png'} alt="HTML icon" />
                         <p className='my-4'>THREE JS</p>
                     </div>
                     <div className='shadow-md shadow-slate-900 hover:scale-110 duration-500 pt-6'>
-                        <img className='w-20 mx-auto' src={process.env.PUBLIC_URL + '/ruby.png'} alt="HTML icon" />
+                        <img className='w-20 mx-auto' src={process.env.PUBLIC_URL + '/images/ruby.png'} alt="HTML icon" />
                         <p className='my-4'>RUBY ON RAILS</p>
                     </div>
                     <div className='shadow-md shadow-slate-900 hover:scale-110 duration-500 pt-6'>
-                        <img className='w-20 mx-auto' src={process.env.PUBLIC_URL + '/node.png'} alt="HTML icon" />
+                        <img className='w-20 mx-auto' src={process.env.PUBLIC_URL + '/images/node.png'} alt="HTML icon" />
                         <p className='my-4'>NODE JS</p>
                     </div>
                     <div className='shadow-md shadow-slate-900 hover:scale-110 duration-500 pt-6'>
-                        <img className='w-20 mx-auto' src={process.env.PUBLIC_URL + '/jquery.png'} alt="HTML icon" />
+                        <img className='w-20 mx-auto' src={process.env.PUBLIC_URL + '/images/jquery.png'} alt="HTML icon" />
                         <p className='my-4'>JQUERY</p>
                     </div>
                     <div className='shadow-md shadow-slate-900 hover:scale-110 duration-500 pt-6'>
-                        <img className='w-20 mx-auto' src={process.env.PUBLIC_URL + '/bootstrap.png'} alt="HTML icon" />
+                        <img className='w-20 mx-auto' src={process.env.PUBLIC_URL + '/images/bootstrap.png'} alt="HTML icon" />
                         <p className='my-4'>BOOTSTRAP</p>
                     </div>
                     <div className='shadow-md shadow-slate-900 hover:scale-110 duration-500 pt-6'>
-                        <img className='w-20 mx-auto' src={process.env.PUBLIC_URL + '/mui.png'} alt="HTML icon" />
+                        <img className='w-20 mx-auto' src={process.env.PUBLIC_URL + '/images/mui.png'} alt="HTML icon" />
                         <p className='my-4'>MATERIAL UI</p>
                     </div>
 
 
                     <div className='shadow-md shadow-slate-900 hover:scale-110 duration-500 pt-6'>
-                        <img className='w-20 mx-auto' src={process.env.PUBLIC_URL + '/mongo.png'} alt="HTML icon" />
+                        <img className='w-20 mx-auto' src={process.env.PUBLIC_URL + '/images/mongo.png'} alt="HTML icon" />
                         <p className='my-4'>MONGO DB</p>
                     </div>
                     <div className='shadow-md shadow-slate-900 hover:scale-110 duration-500 pt-6'>
-                        <img className='w-20 mx-auto' src={process.env.PUBLIC_URL + '/sql.png'} alt="HTML icon" />
+                        <img className='w-20 mx-auto' src={process.env.PUBLIC_URL + '/images/sql.png'} alt="HTML icon" />
                         <p className='my-4'>POSTGRESQL</p>
                     </div>
                     <div className='shadow-md shadow-slate-900 hover:scale-110 duration-500 pt-6'>
-                        <img className='w-20 mx-auto' src={process.env.PUBLIC_URL + '/tailwind.png'} alt="HTML icon" />
+                        <img className='w-20 mx-auto' src={process.env.PUBLIC_URL + '/images/tailwind.png'} alt="HTML icon" />
                         <p className='my-4'>TAILWIND</p>
                     </div>
                     <div className='shadow-md shadow-slate-900 hover:scale-110 duration-500 pt-6'>
-                        <img className='w-20 mx-auto' src={process.env.PUBLIC_URL + '/python.png'} alt="HTML icon" />
+                        <img className='w-20 mx-auto' src={process.env.PUBLIC_URL + '/images/python.png'} alt="HTML icon" />
                         <p className='my-4'>PYTHON</p>
                     </div>
                     <div className='shadow-md shadow-slate-900 hover:scale-110 duration-500 pt-6'>
-                        <img className='w-20 mx-auto' src={process.env.PUBLIC_URL + '/C.png'} alt="HTML icon" />
+                        <img className='w-20 mx-auto' src={process.env.PUBLIC_URL + '/images/C.png'} alt="HTML icon" />
                         <p className='my-4'>C</p>
                     </div>
                     <div className='shadow-md shadow-slate-900 hover:scale-110 duration-500 pt-6'>
-                        <img className='w-20 mx-auto' src={process.env.PUBLIC_URL + '/github.png'} alt="HTML icon" />
+                        <img className='w-20 mx-auto' src={process.env.PUBLIC_URL + '/images/github.png'} alt="HTML icon" />
                         <p className='my-4'>GITHUB</p>
                     </div>
                     <div className='shadow-md shadow-slate-900 hover:scale-110 duration-500 pt-6'>
-                        <img className='w-20 mx-auto' src={process.env.PUBLIC_URL + '/ibm.png'} alt="HTML icon" />
+                        <img className='w-20 mx-auto' src={process.env.PUBLIC_URL + '/images/ibm.png'} alt="HTML icon" />
                         <p className='my-4'>IBM CLOUD</p>
                     </div>
                     <div className='shadow-md shadow-slate-900 hover:scale-110 duration-500 pt-6'>
-                        <img className='w-20 mx-auto' src={process.env.PUBLIC_URL + '/aws.png'} alt="HTML icon" />
+                        <img className='w-20 mx-auto' src={process.env.PUBLIC_URL + '/images/aws.png'} alt="HTML icon" />
                         <p className='my-4'>AWS CLOUD</p>
                     </div>
                     <div className='shadow-md shadow-slate-900 hover:scale-110 duration-500 pt-6'>
-                        <img className='w-20 mx-auto' src={process.env.PUBLIC_URL + '/sonic.png'} alt="HTML icon" />
+                        <img className='w-20 mx-auto' src={process.env.PUBLIC_URL + '/images/sonic.png'} alt="HTML icon" />
                         <p className='my-4'>SONIC PI</p>
                     </div>
                 </div>

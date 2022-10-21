@@ -26,7 +26,7 @@ const Projects = () => {
                     {projects.map((item, index) => (
                         <div
                             key={index}
-                            style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/${item.image})`, backgroundSize: `cover` }}
+                            style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/images/${item.image})`, backgroundSize: `cover` }}
 
                             className="shadow-lg shadow-slate-800 group container rounded-md 
               flex justify-center text-center items-center mx-auto content-div"
