@@ -33,6 +33,10 @@ const Skills = () => {
                         <p className='my-4'>VUE JS</p>
                     </div>
                     <div className='shadow-md shadow-slate-900 hover:scale-110 duration-500 pt-6'>
+                        <img className='w-20 mx-auto' src={process.env.PUBLIC_URL + '/three.png'} alt="HTML icon" />
+                        <p className='my-4'>THREE JS</p>
+                    </div>
+                    <div className='shadow-md shadow-slate-900 hover:scale-110 duration-500 pt-6'>
                         <img className='w-20 mx-auto' src={process.env.PUBLIC_URL + '/ruby.png'} alt="HTML icon" />
                         <p className='my-4'>RUBY ON RAILS</p>
                     </div>
@@ -85,6 +89,10 @@ const Skills = () => {
                     <div className='shadow-md shadow-slate-900 hover:scale-110 duration-500 pt-6'>
                         <img className='w-20 mx-auto' src={process.env.PUBLIC_URL + '/aws.png'} alt="HTML icon" />
                         <p className='my-4'>AWS CLOUD</p>
+                    </div>
+                    <div className='shadow-md shadow-slate-900 hover:scale-110 duration-500 pt-6'>
+                        <img className='w-20 mx-auto' src={process.env.PUBLIC_URL + '/sonic.png'} alt="HTML icon" />
+                        <p className='my-4'>SONIC PI</p>
                     </div>
                 </div>
             </div>
