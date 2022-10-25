@@ -18,7 +18,7 @@ const Navbar = (props) => {
 
     return (
 
-        <div className={'fixed w-full h-[80px] flex justify-between items-center px-4 dark:bg-slate-800 dark:text-slate-300'}>
+        <div className={'fixed w-full h-[80px] flex justify-between items-center px-4 bg-slate-300 text-slate-800 dark:bg-slate-800 dark:text-slate-300'}>
             <div className={nav ? 'invisible' : 'font-bold text-xl flex items-center gap-3'}>
                 <Link to='home' smooth={true} duration={500} className='cursor-pointer'>
                     HUANYU LI
@@ -144,7 +144,7 @@ const Navbar = (props) => {
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-lime-700'>
                         <a
                             className='flex justify-between items-center w-full text-gray-300'
-                            href='https://drive.google.com/file/d/1ajs_IBG8dyDJEYqf-60wp3QkNz_8JeH1/view?usp=sharing'
+                            href='https://drive.google.com/file/d/1PrSuHmWN1SlUhx_tFvN_Tt6idV0jGUA8/view?usp=sharing'
                             target="_blank"
                         >
                             Resume <BsFillPersonLinesFill size={30} />
